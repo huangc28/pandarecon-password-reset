@@ -6,7 +6,7 @@ const crypto = require("crypto");
 const [pCriteria] = process.argv.slice(2, 3)
 
 if (!pCriteria) {
-  console.error('please enter a password attempt to encrypt')
+  console.log('please enter a password attempt to encrypt')
 
   process.exit(1)
 }
