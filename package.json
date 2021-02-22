@@ -1,0 +1,17 @@
+{
+  "name": "pandarecon-password-reset",
+  "version": "0.0.1",
+  "description": "Provide a tool to generate password that uses the same encryption mechanism as our current backend.",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js"
+  },
+  "author": "Bryan Huang <huangchiheng@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1"
+  },
+  "bin": {
+    "encrypt": "index.js"
+  }
+}
