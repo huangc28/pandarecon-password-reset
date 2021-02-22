@@ -1,5 +1,5 @@
 {
-  "name": "pandarecon-password-reset",
+  "name": "@huangc28/pandarecon-password-reset",
   "version": "0.0.1",
   "description": "Provide a tool to generate password that uses the same encryption mechanism as our current backend.",
   "main": "index.js",
